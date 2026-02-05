@@ -1,0 +1,37 @@
+# Core LLM + Graph
+langgraph==1.0.7
+langgraph-checkpoint-sqlite==3.0.3
+langgraph-prebuilt==1.0.7
+
+langchain==1.2.8
+langchain-core==1.2.8
+langchain-community==0.4.1
+langchain-openai==1.1.7
+langchain-chroma==1.1.0
+
+# Vector DB
+chromadb==1.4.1
+onnxruntime>=1.14.1
+
+# LLM + embeddings
+openai==2.16.0
+tiktoken==0.12.0
+
+# Tools
+tavily-python==0.7.21
+
+# Persistence
+aiosqlite==0.22.1
+
+# UI
+streamlit==1.53.1
+
+# Utilities
+python-dotenv==1.2.1
+requests==2.32.5
+pydantic==2.12.5
+typing-extensions==4.15.0
+
+# Required by chromadb (version constraint matters)
+posthog<6.0.0
+python-dateutil==2.9.0.post0
